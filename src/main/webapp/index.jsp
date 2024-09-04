@@ -5,9 +5,7 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="<%=request.getContextPath()%>/categoryController/findAll">Category</a><br/>
+<a href="<%=request.getContextPath()%>/productController/findAll">Product</a>
 </body>
 </html>
